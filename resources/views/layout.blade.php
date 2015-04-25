@@ -53,10 +53,12 @@
 		</div>
 	</nav>
 	<script src = "{{ asset('/js/jquery/jquery-2.1.3.min.js') }}"></script>
-	<script src = "{{ asset('/js/jquery/jquery-ui.js') }}"></script>
+	
+	<!--script src = "{{ asset('/js/jquery/jquery-ui.js') }}"></script-->
 	@yield('content')
 
 	<!-- Scripts -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script src = "{{ asset('/js/bootstrap/bootstrap.min.js') }}"></script>
+	
 </body>
 </html>
