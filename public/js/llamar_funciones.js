@@ -5,5 +5,5 @@ $(document).ready(function(){
 	cargarItems();
 	enviarAnotacion();
 	cargarAnotaciones();
-	autocompletarItems();
+	//autocompletarItems();
 });

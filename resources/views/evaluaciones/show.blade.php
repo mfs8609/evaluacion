@@ -27,9 +27,6 @@
 					</select>
 
 					<br>
-					<input type="text" id="txtBuscarItem" class="form-control" placeholder="Buscar Item">
-
-					<br>
 					<label for="contenido">Anotación</label>
 					<textarea class="form-control" id="contenido"></textarea>
 
